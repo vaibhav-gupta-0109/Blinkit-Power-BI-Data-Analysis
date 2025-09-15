@@ -68,7 +68,7 @@ vendor-performance-analysis/
 
 ---
 
-![BlinkIt Analysis Dashboard](images/Blinkit Dashboard Image.png)
+![BlinkIt Analysis Dashboard](images/Blinkit_Dashboard.png)
 
 ---
 <h2><a class="anchor" id="research-questions--key-findings"></a>Key Insights</h2>
@@ -90,7 +90,6 @@ vendor-performance-analysis/
 git clone https://github.com/yourusername/Blinkit-Power-BI-Data-Analysis.git
 ```
 3. Open the dataset in Excel (if you want to preview or preprocess data)
-
 4. Open Blinkit Dashboard.pbix in Power BI Desktop.
 5. Interact with the dashboard: apply filters (by outlet, product type, location, etc.), explore KPI cards, and view visual charts.
 6. Export or share insights via the Power BI file or Blinkit Dashboard.pdf for stakeholders.
@@ -99,13 +98,9 @@ git clone https://github.com/yourusername/Blinkit-Power-BI-Data-Analysis.git
 <h2><a class="anchor" id="final-recommendations"></a>Final Recommendations</h2>
 
 - Focus marketing & supply chain resources on high-performing outlet types (e.g. Supermarket-Type-1).
-
 - Explore opportunities in Tier-3 locations, given their strong performance in some categories.
-
 - Analyze customer feedback/rating further to see how rating improvements (e.g. via service or stock availability) can boost sales.
-
 - Consider product-level strategies: since Fruits & Snacks sell well, see if similar adjacent categories can be expanded.
-
 - Use dashboard insights regularly to monitor performance and adjust operational or stocking strategies.
 
 ---
