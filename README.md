@@ -1,68 +1,117 @@
-**📊 Blinkit Power BI Data Analysis**
+# 🛒 Blinkit Power BI Data Analysis
 
-**🛒 Project Overview**
+*Retail-sales data analysis for Blinkit outlets & products, visualized with Power BI to inform business strategy.*
 
-This project focuses on analyzing Blinkit's (formerly known as Grofers) sales data using Power BI to derive business insights regarding outlet performances, item sales, customer preferences, and outlet ratings across different locations.
+---
 
-The dataset utilized is inspired by retail sales structures, customized for Indian retail brand behavior and sales patterns.
+## 📌 Table of Contents
+- <a href="#overview">Overview</a>
+- <a href="#business-problem">Business Problem</a>
+- <a href="#dataset">Dataset</a>
+- <a href="#tools--technologies">Tools & Technologies</a>
+- <a href="#project-structure">Project Structure</a>
+- <a href="#dashboard">Dashboard Features</a>
+- <a href="#research-questions--key-findings">Key Insights</a>
+- <a href="#how-to-run-this-project">How to Run This Project</a>
+- <a href="#final-recommendations">Final Recommendations</a>
+- <a href="#author--contact">Author & Contact</a>
 
-**🎯 Objectives**
+---
+<h2><a class="anchor" id="overview"></a>Overview</h2>
 
-Perform interactive visual data analysis on sales, product categories, and outlet performance.
+This project focuses on analyzing Blinkit’s (formerly Grofers) retail outlet sales data using Power BI. The aim is to uncover patterns & trends in the performance of outlets, product categories, and customer preferences, and to derive actionable insights for improving sales, operations and marketing decisions.
 
-Identify top-selling products and outlets.
+---
+<h2><a class="anchor" id="business-problem"></a>Business Problem</h2>
 
-Analyze the impact of outlet size, type, and location on overall sales.
+Blinkit wants to understand:  
+- Which products and outlets are performing best — and which are underperforming.  
+- How outlet location, size, and type affect sales.  
+- What customer preferences look like by product category (e.g. item type, fat content).  
+- How ratings correlate with sales across locations.  
+- Where to focus resources or strategies to increase sales & customer satisfaction.
 
-Provide actionable insights to optimize operations and marketing strategies.
+---
+<h2><a class="anchor" id="dataset"></a>Dataset</h2>
 
-**📂 Project Structure**
+- **BlinkIT Grocery Data.xlsx**: Contains sales data, item/product info, outlet details, etc.  
+- Fields include: outlet location, outlet size, outlet type; item type; product attributes (e.g. fat content); item sales, quantity sold; outlet ratings.
 
-Component	Details
-Data Source	Retail dataset (Sales, Items, Outlet details)
-Tools Used	Power BI
-Dashboard Features	KPI Cards, Filters, Bar Charts, Donut Charts, Line Graphs, Tables
-Filters Available	Outlet Location, Outlet Size, Item Type
+---
 
-**📈 Key Insights from Dashboard**
+<h2><a class="anchor" id="tools--technologies"></a>Tools & Technologies</h2>
 
-Total Sales: $1.20M
+- **Power BI**: Dashboard building and visualization  
+- **Excel**: Data preprocessing & cleaning  
+- **DAX**: For KPIs, filters, metrics within Power BI  
 
-Average Rating: 3.9
+---
+<h2><a class="anchor" id="project-structure"></a>Project Structure</h2>
 
-Total Items Sold: 8,523
+```
+vendor-performance-analysis/
+│
+├── README.md
+├── Blinkit Analysis Report.pdf
+│
+├── dashboard/                  # Power BI dashboard file
+│   └── Blinkit_dashboard.pbix
+```
 
-Outlet Type Performance: Supermarket Type 1 dominates with highest total sales.
+---
+<h2><a class="anchor" id="dashboard"></a>Dashboard Features</h2>
 
-Outlet Location Analysis: Tier 3 cities outperform Tier 1 and Tier 2 in sales.
+- KPI Cards (e.g. Total Sales, Average Rating, Total Items Sold)  
+- Filters for Outlet Location, Outlet Size, Item Type  
+- Bar charts, Donut charts, Line graphs, Tables for drill-down views  
+- Visualizations of: Outlet performance, Product category trends, Rating vs sales  
 
-Item Type Trends: Fruits and Snacks are the highest contributing categories.
+---
 
-Fat Content Distribution: Regular fat content items sell more compared to low-fat items.
+![Vendor Performance Dashboard](images/dashboard.png)
 
-**📸 Dashboard Preview**
+---
+<h2><a class="anchor" id="research-questions--key-findings"></a>Key Insights</h2>
 
-Here’s a glimpse of the Power BI dashboard:
-![Blinkit Dashboard Image](https://github.com/user-attachments/assets/1b9ac6d3-cb5d-4a12-8717-517df0f368fc)
+- **Total Sales**: ~$1.20M  
+- **Average Rating**: ~3.9 / 5  
+- **Total Items Sold**: 8,523  
+- **Outlet Type Performance**: Supermarket-Type-1 outlets generate the highest revenues  
+- **Location Trends**: Tier-3 cities outperform Tier-1 & Tier-2 in certain product categories  
+- **Category-wise Trends**: Fruits and Snacks are among the highest selling item types  
+- **Product Attributes**: Regular-fat content items sell more than low-fat ones in this dataset  
 
+---
 
-**⚡ Technologies Used**
+<h2><a class="anchor" id="how-to-run-this-project"></a>How to Run This Project</h2>
 
-Power BI
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/Blinkit-Power-BI-Data-Analysis.git
+```
+3. Open the dataset in Excel (if you want to preview or preprocess data)
 
-Excel (Data Preprocessing)
+4. Open Blinkit Dashboard.pbix in Power BI Desktop.
+5. Interact with the dashboard: apply filters (by outlet, product type, location, etc.), explore KPI cards, and view visual charts.
+6. Export or share insights via the Power BI file or Blinkit Dashboard.pdf for stakeholders.
 
-DAX Queries (for KPIs and Metrics)
+---
+<h2><a class="anchor" id="final-recommendations"></a>Final Recommendations</h2>
 
-**🚀 How to Run the Project**
+- Focus marketing & supply chain resources on high-performing outlet types (e.g. Supermarket-Type-1).
 
-Clone the repository.
+- Explore opportunities in Tier-3 locations, given their strong performance in some categories.
 
-Open the Power BI file (.pbix) in Microsoft Power BI Desktop.
+- Analyze customer feedback/rating further to see how rating improvements (e.g. via service or stock availability) can boost sales.
 
-Explore and interact with the filters and charts.
+- Consider product-level strategies: since Fruits & Snacks sell well, see if similar adjacent categories can be expanded.
 
-**📢 Contact**
+- Use dashboard insights regularly to monitor performance and adjust operational or stocking strategies.
 
-If you have any questions or feedback, feel free to connect!
-🔗 github.com/vaibhav-gupta-0109
+---
+<h2><a class="anchor" id="author--contact"></a>Author & Contact</h2>
+
+**Vaibhav Gupta**  
+Data Analyst  
+📧 Email: vaibhav.gupta.career@gmail.com
+🔗 [LinkedIn](https://www.linkedin.com/in/guptavaibhav01/)
