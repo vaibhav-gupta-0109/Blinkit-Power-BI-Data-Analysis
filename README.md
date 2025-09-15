@@ -68,7 +68,7 @@ vendor-performance-analysis/
 
 ---
 
-![Vendor Performance Dashboard](images/Blinkit Dashboard Image.png)
+![BlinkIt Analysis Dashboard](images/Blinkit Dashboard Image.png)
 
 ---
 <h2><a class="anchor" id="research-questions--key-findings"></a>Key Insights</h2>
