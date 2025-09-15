@@ -52,10 +52,13 @@ Blinkit wants to understand:
 vendor-performance-analysis/
 │
 ├── README.md
-├── Blinkit Analysis Report.pdf
+├── Blinkit_Project_Report.pdf
+├── Blinkit Grocery Data.xlsx
 │
 ├── dashboard/                  # Power BI dashboard file
 │   └── Blinkit_dashboard.pbix
+├── images/                  # Power BI dashboard screenshot
+│   └── Blinkit_dashboard.png
 ```
 
 ---
